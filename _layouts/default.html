@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+  {% include navbar.html %}
+  <header>
+    <img id="banner-image" src="/assets/img/{{ page.image }}" />
+  </header>
+
+  <div id="content" class="visible">
+
+      {{ content }}
+
+  </div>
+
+</body>
+
+{% include footer.html %}
+</html>

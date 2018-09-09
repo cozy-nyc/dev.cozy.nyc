@@ -1,0 +1,36 @@
+
+<div id="navbar">
+  <div id="navbar-nav">
+    <a id="navbar-backbutton" onclick="goBack()">
+      {% include icons/left-arrow.svg %}
+    </a>
+    <span
+      id="navbar-logo"
+      class="dropdown-btn"
+      role="button"
+      tabIndex={0}
+    >
+      <a id="navbar-button" href="/">
+        {% include icons/cube.svg %}
+      </a>
+      <div id="navbar-dropdown">
+        <div id="navbar-menu">
+          <div class="main-links">
+            <a href="/about">about</a>
+            <a href="/blog">blog</a>
+            <a href="/contribute">contribute</a>
+            <a href="/donate">donate</a>
+          </div>
+
+          <div class="sub-links">
+            <a href="https://github.com/cozy-nyc/">github</a>
+            <a href="https://discordapp.com/invite/3WSA2SG">discord</a>
+            <a href="/contact" id="contact-icon">email</a>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <p id="page-title">{{ page.title }}</p>
+  <div class="u-cf" />
+</div>
