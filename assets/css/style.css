@@ -102,6 +102,9 @@ input{
 	width: 57%;
 }
 
+header{
+	padding: 50px;
+}
 
 #header {
   position:absolute;
@@ -238,4 +241,10 @@ input{
 
 #content {
 	padding: 20px 20%;
+	margin: auto;
+	width: 500px;
+}
+
+.center {
+	text-align: center;
 }
