@@ -2,7 +2,7 @@
 layout: default
 title: about
 permalink: /about/
-image: munchies.gif
+image: jamming.gif
 ---
 
 hello loves
